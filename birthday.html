@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bhuvana</title>
+    <style>
+        body{
+        background-image:url("https://static.vecteezy.com/system/resources/previews/000/664/483/original/abstract-blue-banner-design-vector.jpg");
+        background-repeat:no-repeat;
+        background-size:cover;
+        }
+        .para{
+        background-image:url("https://happybirthdaycakepic.com/thumbnail/Tom/137/benevolent-red-velvet-birthday-cake-for-Tom.jpg");
+        background-repeat:no-repeat;
+        font-size:18px;
+        text-align:center;
+        background-size:cover;
+        margin-left:25%;
+        margin-right:25%;
+        }
+        .h1{
+        background-color:pink;
+        font-family: "Sofia", sans-serif;
+        font-size: 15px;
+        text-align:center;
+        width:50%;
+        margin-left:25%;
+        }
+        .img,video{
+        margin-top:10px;
+        margin-bottom:10px;
+        padding:10px;
+        /*background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRezPDUdIKiTK_K-OXi6gIoMiEYQSRr2H_oqA&usqp=CAU");*/
+        display:flex;
+        justify-content: space-between ;
+        }
+        .h1 .img .image{
+        width:350px;
+        height:300px;
+        display:flex;
+        align-content: center;
+        }
+        .img{
+            display:flex;
+            justify-content: space-between ;height:15cm;
+        }
+        .youtube{
+            display:flex;
+            justify-content: space-between ;
+        }
+        #get{
+            display:flex;
+            justify-content: space-between ;
+        }
+        </style>
+</head>
+<body>
+
+    <div class="h1">
+        <h1 class="font-effect-shadow-multiple">Happy Birthday to u Bhuvi</h1></div>
+        
+        
+        <div class="img">
+            <div style="text-align: left;"><img src="https://www.funimada.com/assets/images/cards/big/bday-176.gif" width-250 height-300></div>
+            <div ><img src="https://m.media-amazon.com/images/I/81uTCwCWwnL._SX522_.jpg" ></div>
+        </div>
+        <div class="para">
+        <pre><b>Today is...as beautiful as other days 😇
+        
+        But u realize another year has gone in a blink of the eyes
+        
+        However Do U know..? 😀
+        
+        Today is just special so special to U TOM 😍
+        
+        That's why 😇 Let's make it...the best celebration ever and 
+        
+        Let me share 😇...a piece of happiness to U TOM 😍
+        
+        I made all this..😇 as a birthday present to U TOM 😍
+        
+        Thanks for Being There in all tough times 😍
+        
+        Thanks for the Friendship We Made 😍
+        
+        Thanks for Everything TOM 💓
+        
+        I wish u all the bst for upcoming success days in ur life 😀 
+        
+        May ur life be at ease 💓
+        
+        May all ur wishes come true 😀</b></pre>
+        </div>
+        <div class="img">
+            <div><img src="https://1.bp.blogspot.com/-wIPD2OFU6FM/YUUNqrg0u4I/AAAAAAAIvi8/IFERuVyHJuQuv12UriQRWIv4YqtdS4lWgCLcBGAsYHQ/s16000/happy-birthday-gif-Tom.gif" style="height:12cm"></div>
+            <div class="youtube" style="text-align:right;"><iframe width="450" height="440" style="justify-content: right;" src="https://www.youtube.com/embed/UBIcXZ7lY2s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+        </div>
+        <center style="margin-top: -50px;">
+           <strong style="color:white"> Tom ur Birthday date and time below :</strong><br><br>
+           <strong><p style="color:white" id='demo'></p></strong> 
+           <strong id="demo" style="text-align:left;color:white"></strong>
+        </center><br><br><br>
+        
+        <div id="get">
+            <div onmouseover="mOver(this)" onmouseout="mOut(this)" 
+            style="background-color:rgb(88, 217, 235);width:220px;height:4cm;padding:50px; float:left;margin-top:3px;margin-bottom:0px;">
+            Mouse Over Me</div>
+            <div onmousedown="mDown(this)" onmouseup="mUp(this)"
+            style="background-color:violet;width:220px;height:4cm;padding:50px;float:left;margin-top:3px;margin-bottom:0px;">
+            <b>😀Click Me😇</b></div>
+            
+            <div onmousedown="mup(this)" onmouseup="mdown(this)"
+            style="background-color:#e2f092;width:220px;height:4cm;padding:50px;float:right;margin-top:3px;margin-bottom:0px">
+            <b>😀Click Me😇</b></div>
+        </div>
+    
+</body>
+<script>
+    function mOver(obj) {
+  obj.innerHTML = "To Tom <br><br>Having u as a friend means walking along with my personal guardian 💓. My well wisher ur companian is like no other!💓.I cherish our friendship to the moon and back.i wish this would remains same 💓"
+}
+
+function mOut(obj) {
+  obj.innerHTML = "<b>😀Mouse Over Me😇</b>"
+}
+function mDown(obj) {
+  obj.style.backgroundColor = "#e2f092";
+  obj.innerHTML = "Release Me";
+}
+
+function mUp(obj) {
+  obj.style.backgroundColor="violet";
+  obj.innerHTML="To TOM <br><br>Happy birthday to someone,who is so much more than just a great leader 💓. To me ur truely a supportive and a inspiring person 💓";
+}
+function mup(obj) {
+ // obj.style.backgroundColor = "#0000FF";
+  obj.innerHTML = "Release Me";
+}
+
+function mdown(obj) {
+    obj.style.backgroundColor="#e2f092";
+  obj.innerHTML="To TOM <br><br>I hope this birthday gift makes u feel happy 😀";
+}
+const d = new Date();
+    const date1 = new Date("August 23, 2023");
+console.log(d.toDateString());
+console.log(date1.toDateString());
+console.log(d.toDateString() < date1.toDateString());
+console.log(d.toDateString() > date1.toDateString());
+if (d.toDateString() < date1.toDateString()) {
+  console.log("");
+} else if (d.toDateString() > date1.toDateString()) {
+  console.log("");
+} else {
+  document.getElementById("demo").innerHTML = d;
+}
+</script>
+</html>
